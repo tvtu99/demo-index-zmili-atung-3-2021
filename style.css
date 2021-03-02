@@ -59,11 +59,7 @@ a:focus {
     outline: none;
     border: none;
 }
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
-}
+
 .fix{
     position: relative;
     display: block;
@@ -1607,12 +1603,16 @@ select:focus {
     margin-top: 43px !important;
     line-height: 14px;
 }
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
 .project-carousel .owl-dots .owl-dot{
 	background-image: none;
 	width: 20px;
 	height: 5px;
 	margin: 0px 10px;
-    background: #e1e1e1;
+    background-color: #e1e1e1;
     border: 2px solid #e1e1e1;
 	padding: 0px;
 	border-radius: 0%;
@@ -2145,12 +2145,10 @@ select:focus {
     display: block;
     background: #ffffff;
     padding-top: 110px;
-    padding-bottom: 50px;
 }
 .single-blog-post {
     position: relative;
     display: block;
-    margin-bottom: 52px;
 }
 .single-blog-post .img-holder {
     position: relative;
@@ -2424,4 +2422,13 @@ select:focus {
 }
 .brand-items-carousel.owl-carousel .owl-nav [class*="owl-"]:hover{
     border-color: #e9212e;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1366px;
+    }
+    .img-holder img{
+        height: 300px;
+    }
+    
 }
